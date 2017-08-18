@@ -1,7 +1,7 @@
-USPTO UI Design Library
+UI Design Library
 ==============
 
-- [View the UI Design Library](https://uspto.github.io/designpatterns/)
+- [View the UI Design Library](https://(sitename).github.io/designpatterns/)
 - [Contributing](CONTRIBUTING.md)
 - [How-to: Using the UI Design Library in your project](howto.md)
 - [Terms](TERMS.md)
@@ -11,7 +11,7 @@ Have feedback or questions about the UI Design Library? [Create an issue!](https
 
 #### About this repository
 
-This is the source code repository for the [USPTO UI Design Library](https://uspto.github.io/designpatterns/). The site is powered by [Jekyll](http://jekyllrb.com/), a static site generator that plays well with [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/). 
+This is the source code repository for the [UI Design Library](https://(sitename).github.io/designpatterns/). The site is powered by [Jekyll](http://jekyllrb.com/), a static site generator that plays well with [Github Pages](https://help.github.com/articles/using-jekyll-with-pages/). 
 
 #### Want to contribute?
 See our [CONTRIBUTING.md](CONTRIBUTING.md) file for contribution guidelines.
