@@ -126,6 +126,70 @@ optgroup {
   /* stylelint-disable-line declaration-no-important */
 }
 
+/* Grid Preview
+   ========================================================================== */
+.preview {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #ffffff;
+  padding: 3rem;
+  border: 1px solid #eeeeee; }
+  .preview::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .preview .usa-background-dark {
+    padding-right: 1em;
+    padding-left: 1em;
+    display: inline-block; }
+  .preview > *:first-child {
+    margin-top: 0; }
+
+.preview-no_border {
+  margin-top: 0;
+  margin-bottom: 2em;
+  border: 0;
+  padding: 0; }
+
+.preview-lists {
+  padding-bottom: 0; }
+  .preview-lists .usa-heading-alt {
+    margin-top: 0; }
+
+.preview-dropdown {
+  padding-top: 0; }
+
+.preview-search-bar .usa-grid {
+  padding: 0; }
+
+.grid-example .usa-grid {
+  background: #e3e4e5; }
+  .grid-example .usa-grid > * {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+    padding: 1em;
+    background: #727272; }
+@media screen and (min-width: 600px) {
+  .grid-example .usa-width-one-twelfth {
+    padding-right: 0;
+    padding-left: 0; } }
+
+.grid-example-blank .usa-grid {
+  text-align: center; }
+
+.grid-text .usa-grid {
+  background: #727272; }
+  .grid-text .usa-grid > * {
+    background: #e3e4e5;
+    color: #000000; }
+  .grid-text .usa-grid h3 {
+    margin-top: 0; }
+  .grid-text .usa-grid p {
+    margin-bottom: 0; }
+
+/* Grid
+   ========================================================================== */
 .usa-grid,
 .usa-grid-full {
   max-width: 1200px;
