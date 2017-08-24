@@ -9,7 +9,7 @@
         <meta name="keywords" contnet="">
 
         <meta name="viewport" content="width=device-width">
-        <meta name="theme-color" content="#004c97">
+        <meta name="theme-color" content="#205493">
 
         <meta property="og:title" content="Menus">
         <meta property="og:description" content="">
@@ -989,7 +989,6 @@
     <li>Use submenus to separate large sets of menu items</li>
     <li>Include keyboard shortcuts if applicable</li>
     <li>Disable menu items rather than hiding to improve discoverability of features</li>
-    <li>Indicate submenus with a caret</li>
     <li>Indicate dialogs with an ellipsis</li>
     <li>Use sentence case for menu items</li>
   </ul>
@@ -999,9 +998,6 @@
   <li role="presentation"><a href="">Bold <span class="pull-right text-muted">Ctrl+B</span></a></li>
   <li role="presentation"><a href="">Italic <span class="pull-right text-muted">Ctrl+I</span></a></li>
   <li role="presentation"><a href="">Underline <span class="pull-right text-muted">Ctrl+U</span></a></li>
-  <li role="presentation" class="divider"></li>
-  <li role="presentation"><a href="">Font <i class="icon icon-caret-right pull-right"></i></a></li>
-  <li role="presentation"><a href="">Font size <i class="icon icon-caret-right pull-right"></i></a></li>
   <li role="presentation" class="divider"></li>
   <li role="presentation" class="disabled"><a>Conditional formatting...</a></li>
   <li role="presentation" class="divider"></li>
@@ -1015,9 +1011,6 @@
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Italic <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"pull-right text-muted"</span><span class="nt">&gt;</span>Ctrl+I<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Underline <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"pull-right text-muted"</span><span class="nt">&gt;</span>Ctrl+U<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Font <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Font size <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;&lt;a&gt;</span>Conditional formatting...<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Clear formatting<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
@@ -1026,26 +1019,6 @@
 
 </div>
 
-<div class="pl-pattern">
-  <h3 id="submenus">Submenus</h3>
-
-  <p>Submenus help organize menu items.</p>
-
-<div class="pl-preview">
-    <ul style="display: inline-block; position: relative; float: none; width: 200px;" class="dropdown-menu" role="menu">
-      <li role="presentation"><a href="">Submenu item <i class="icon icon-caret-right pull-right"></i></a></li>
-      <li role="presentation" class="disabled"><a href="">Disabled submenu item <i class="icon icon-caret-right pull-right"></i></a></li>
-    </ul>
-</div>
-
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Submenu item <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Disabled submenu item <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre>
-  </figure>
-
-</div>
 
 <div class="pl-pattern">
 
@@ -1057,10 +1030,10 @@
 
 <div class="pl-preview">
     <ul style="display: inline-block; position: relative; float: none; width: 200px;" class="dropdown-menu has-icon" role="menu">
-      <li role="presentation"><a href=""><i class="icon icon-fw icon-star dropdown-menu-icon"></i> Star</a></li>
+      <li role="presentation"><a href=""><i class="fa fa-fw fa-star dropdown-menu-icon"></i> Star</a></li>
       <li role="presentation"><a href="">Share...</a></li>
       <li class="divider" role="presentation"></li>
-      <li role="presentation"><a href=""><i class="icon icon-fw icon-trash-o dropdown-menu-icon"></i> Remove</a></li>
+      <li role="presentation"><a href=""><i class="fa fa-fw fa-trash-o dropdown-menu-icon"></i> Remove</a></li>
     </ul>
 </div>
 
@@ -1070,42 +1043,6 @@
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Share...<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"divider"</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-trash-o dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Remove<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre>
-  </figure>
-
-</div>
-
-<div class="pl-pattern">
-
-  <h3 id="form-controls">Form controls</h3>
-
-  <p>Sometimes menus can contain form elements like checkboxes. Use checkboxes for both single and multi-select options. When dealing with a multi-selectable collection of checkboxes, it’s likely beneficial to keep the menu open after items are checked. Otherwise, menus should close after items are clicked.</p>
-
-<div class="pl-preview">
-    <ul style="display: inline-block; position: relative; float: none; width: 200px;" class="dropdown-menu has-icon" role="menu">
-      <li class="dropdown-header">Single-select</li>
-      <li role="presentation"><a href=""><i class="icon icon-fw dropdown-menu-icon"></i> 1.0</a></li>
-      <li role="presentation"><a href=""><i class="icon icon-fw icon-check dropdown-menu-icon"></i> 1.5</a></li>
-      <li role="presentation"><a href=""><i class="icon icon-fw dropdown-menu-icon"></i> 2.0</a></li>
-      <li class="divider" role="presentation"></li>
-      <li class="dropdown-header">Multi-select</li>
-      <li role="presentation"><a href=""><i class="icon icon-fw icon-check dropdown-menu-icon"></i> Grid lines</a></li>
-      <li role="presentation"><a href=""><i class="icon icon-fw icon-check dropdown-menu-icon"></i> Rulers</a></li>
-      <li role="presentation"><a href=""><i class="icon icon-fw dropdown-menu-icon"></i> Margins</a></li>
-    </ul>
-</div>
-
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu has-icon"</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Single-select<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> 1.0<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-check dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> 1.5<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> 2.0<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"divider"</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Multi-select<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-check dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Grid lines<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-check dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Rulers<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Margins<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></code></pre>
   </figure>
 
