@@ -2,7 +2,6 @@
 .usa-button-primary,
 .usa-button:visited,
 .usa-button-primary:visited,
-button,
 [type=button],
 [type=submit],
 [type=reset],
@@ -15,7 +14,7 @@ button,
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #739DC4;
+  background-color: #205493;
   border: 0;
   border-radius: 0.3rem;
   color: #ffffff;
@@ -36,7 +35,6 @@ button,
   .usa-button-primary,
   .usa-button:visited,
   .usa-button-primary:visited,
-  button,
   [type=button],
   [type=submit],
   [type=reset],
@@ -52,7 +50,6 @@ button,
 .usa-button:visited.usa-button-hover,
 .usa-button-primary:visited:hover,
 .usa-button-primary:visited.usa-button-hover,
-button:hover,
 button.usa-button-hover,
 [type=button]:hover,
 [type=button].usa-button-hover,
@@ -75,7 +72,6 @@ button.usa-button-hover,
 .usa-button:visited.usa-button-focus,
 .usa-button-primary:visited:focus,
 .usa-button-primary:visited.usa-button-focus,
-button:focus,
 button.usa-button-focus,
 [type=button]:focus,
 [type=button].usa-button-focus,
@@ -95,7 +91,6 @@ button.usa-button-focus,
 .usa-button:visited.usa-button-active,
 .usa-button-primary:visited:active,
 .usa-button-primary:visited.usa-button-active,
-button:active,
 button.usa-button-active,
 [type=button]:active,
 [type=button].usa-button-active,
