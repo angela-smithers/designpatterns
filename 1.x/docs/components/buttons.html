@@ -118,23 +118,22 @@
   <p>There are 6 button styles:</p>
 
   <ul>
-    <li><strong>Default</strong>, the general button style.</li>
-    <li><strong>Primary</strong>, indicates the critical, or most important action on a form/page.</li>
-    <li><strong>Danger</strong>, indicates a dangerous, generally destructive action, such as deleting.</li>
-    <li><strong>Success</strong>, indicates a positive action.</li>
-    <li><strong>Warning</strong>, indicates an action that may have some side effects, such as giving a user admin access.</li>
-    <li><strong>Link</strong>, used for non-critical actions. Useful for keeping the interface simple.</li>
+    <li><strong>Primary</strong>, the general button style.</li>
+    <li><strong>Secondary</strong>, indicates an action will be triggered, such as a form or sign up.</li>
+    <li><strong>Ghost</strong>, indicates an alternate button style.</li>
+    <li><strong>Reverse</strong>, an option for dark themes/backgrounds.</li>
+    <li><strong>Disabled</strong>, an option for dark themes/backgrounds.</li>
+    <li><strong>Big</strong>, used for when default just won't do. Useful for keeping the interface simple.</li>
   </ul>
 
   <p>All buttons are prefixed with the <code class="highlighter-rouge">btn</code> class. The <code class="highlighter-rouge">btn</code> class can be applied to any element. Try to use <code class="highlighter-rouge">&lt;button&gt;</code> elements when an action won’t change the URL/route, and <code class="highlighter-rouge">&lt;a&gt;</code> elements when the action will change the URL/route.</p>
 
 <div class="pl-preview">
-    <button type="button" class="btn btn-default">Default</button> 
     <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-link">Link</button>
+    <button type="button" class="btn btn-danger">Secondary</button>
+    <button type="button" class="btn btn-success">Ghost</button>
+    <button type="button" class="btn btn-warning">Reverse</button>
+    <button type="button" class="btn btn-link">Big</button>
 </div>
 
   <figure class="highlight">
@@ -151,19 +150,16 @@
 
 <div class="pl-preview">
     <button disabled type="button" class="btn btn-default">Default</button> 
-    <button disabled type="button" class="btn btn-primary">Primary</button>
-    <button disabled type="button" class="btn btn-danger">Danger</button>
-    <button disabled type="button" class="btn btn-success">Success</button>
-    <button disabled type="button" class="btn btn-warning">Warning</button>
-    <button disabled type="button" class="btn btn-link">Link</button>
 </div>
 
   <figure class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
-<span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/button&gt;</span></code></pre>
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;button</span> <span class="na">disabled</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>
+    Default<span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;div <span class="na">class=</span>"button_wrapper"&gt;</span>
+  <span class="nt">&lt;button <span class="na">class=</span>"usa-button-disabled" disabled&gt;</span>Default
+<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
   </figure>
 
 </div>
