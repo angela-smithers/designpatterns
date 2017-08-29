@@ -59,7 +59,7 @@ button.usa-button-hover,
 [type=reset].usa-button-hover,
 [type=image]:hover,
 [type=image].usa-button-hover {
-  background-color: #205493;
+  background-color: #112e51;
   border-bottom: 0;
   color: #ffffff;
   text-decoration: none;
@@ -100,7 +100,7 @@ button.usa-button-active,
 [type=reset].usa-button-active,
 [type=image]:active,
 [type=image].usa-button-active {
-  background-color: #112e51;
+  background-color: #323a45;
 }
 
 .usa-button.usa-button-primary-alt,
