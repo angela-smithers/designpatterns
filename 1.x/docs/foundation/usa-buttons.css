@@ -464,4 +464,6 @@ button.usa-button-big,
 
 /* *************  for library demonstration only *************** */
 .button_wrapper-dark {
-  background: #323a45; }
+  background-color: #323a45; 
+    display: inline;
+}
