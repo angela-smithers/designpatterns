@@ -466,5 +466,5 @@ button.usa-button-big,
 .button_wrapper-dark {
   background-color: #323a45; 
     display: inline;
-    height: 47px;
+    padding: 1em;
 }
