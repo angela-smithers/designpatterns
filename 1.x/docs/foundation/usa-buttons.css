@@ -461,3 +461,7 @@ button.usa-button-big,
 .usa-button-unstyled:hover {
   background-color: transparent;
 }
+
+/* *************  for library demonstration only *************** */
+.button_wrapper-dark {
+  background: #323a45; }
